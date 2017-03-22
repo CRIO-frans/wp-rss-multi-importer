@@ -1,3 +1,13 @@
+=== WP RSS Multi Importer PHP 7+ hotfix AND SQLi + XSS hotfix ===
+Contributors: CRIO-frans
+Original Creator: amweiss98
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6GC7V8BARAJL
+Tags: rss, atom, feeds, aggregation, aggregator, import, syndication, autoblog, widget
+Requires at least: 3.3
+Tested up to: 4.7.3
+Stable tag: 3.16
+Aggregate RSS feeds. AutoPost or use shortcode, excerpts w/ images, 13 templates, categorize and more.
+
 === WP RSS Multi Importer ===
 Contributors: amweiss98
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6GC7V8BARAJL
@@ -114,6 +124,12 @@ Go here to find [__all FAQs__](http://www.wprssimporter.com/faqs/)
 4. User view - with excerpts and images.
 
 == Changelog ==
+
+= Version 3.16 (2017-3-22) =
+* Fixed: PHP 7+ duplicate variable declaraction
+* Fixed: SQLi injection in rssmi_fetch_feed_items AND fetch_feeds_for_id
+* Hotfixed: disabled save_template_function() for now
+* Rearranged code in: custom_posts.php,excerpt_functions.php,import_feeds.php,options.php,template_functions.php and wp-rss-multi-importer.php
 
 = Version 3.15 (2015-5-10) =
 * Fixed: Problem due to repository guidelines of Wordpress.
