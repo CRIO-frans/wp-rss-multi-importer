@@ -1,7 +1,6 @@
 === WP RSS Multi Importer PHP 7+ hotfix AND SQLi + XSS hotfix ===
 Contributors: CRIO-frans
 Original Creator: amweiss98
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M6GC7V8BARAJL
 Tags: rss, atom, feeds, aggregation, aggregator, import, syndication, autoblog, widget
 Requires at least: 3.3
 Tested up to: 4.7.3
